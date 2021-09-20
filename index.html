@@ -24,7 +24,32 @@
             </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <div class="container">
+            <h2>Simulador de investimentos</h2>
+            <form action="" id="form-top">
+                <fieldset>
+                    <legend>Simulação de investimento</legend>
+                    <label for="valor">Valor</label><br>
+                    <input type="text" id="valor" value="20000" /><br>
+                    <label for="prazo-anos">Prazo (anos)</label><br>
+                    <input type="text" id="prazo-anos" value="20" /><br>
+                    <label for="juros-anos">Juros (ao ano)</label><br>
+                    <input type="number" id="juros-anos" min="0.1" step="0.1" /><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Resultado</legend>
+                    <label for="prazo-meses">Prazo (meses)</label><br>
+                    <input type="text" id="prazo-meses"/><br>
+                    <label for="juros-meses">Juros (ao mês)</label><br>
+                    <input type="text" id="juros-meses"/><br>
+                    <label for="juros-acumulados">Juros acumulados</label><br>
+                    <input type="text" id="juros-acumulados"/><br>
+                </fieldset>
+            </form>
+            <button type="button" id="simular">Simular</button>
+        </div>
+    </main>
     <footer></footer>
 </body>
 
